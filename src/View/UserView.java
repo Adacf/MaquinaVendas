@@ -97,26 +97,6 @@ public class UserView extends JFrame {
 		contentPane.add(txtDisplay);
 		txtDisplay.setColumns(10);
 		
-		JRadioButton rdbtnSuco = new JRadioButton("Suco");
-		rdbtnSuco.setBounds(303, 61, 141, 23);
-		contentPane.add(rdbtnSuco);
-		
-		JRadioButton rdbtnBolo = new JRadioButton("Bolo");
-		rdbtnBolo.setBounds(303, 79, 141, 23);
-		contentPane.add(rdbtnBolo);
-		
-		JRadioButton rdbtnRefri = new JRadioButton("Refri");
-		rdbtnRefri.setBounds(303, 99, 141, 23);
-		contentPane.add(rdbtnRefri);
-		
-		JRadioButton rdbtnSanduiche = new JRadioButton("Sanduiche");
-		rdbtnSanduiche.setBounds(303, 122, 141, 23);
-		contentPane.add(rdbtnSanduiche);
-		
-		JRadioButton rdbtnChocolate = new JRadioButton("Chocolate");
-		rdbtnChocolate.setBounds(303, 146, 141, 23);
-		contentPane.add(rdbtnChocolate);
-		
 		JButton btnEfetuarcompra = new JButton("EfetuarCompra");
 		btnEfetuarcompra.setBounds(298, 172, 117, 29);
 		contentPane.add(btnEfetuarcompra);

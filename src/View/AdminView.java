@@ -63,7 +63,7 @@ public class AdminView extends JFrame {
 		txtAmount.setColumns(10);
 		
 		JLabel lblNewLabel = new JLabel("Dispensados:");
-		lblNewLabel.setBounds(100, 73, 96, 16);
+		lblNewLabel.setBounds(159, 25, 96, 16);
 		contentPane.add(lblNewLabel);
 		
 		JLabel lblFaturamento = new JLabel("Faturamento");
@@ -130,26 +130,6 @@ public class AdminView extends JFrame {
 		textField_4.setBounds(338, 215, 107, 26);
 		contentPane.add(textField_4);
 		textField_4.setColumns(10);
-		
-		JRadioButton rdbtnSuco = new JRadioButton("Suco");
-		rdbtnSuco.setBounds(6, 69, 141, 23);
-		contentPane.add(rdbtnSuco);
-		
-		JRadioButton rdbtnBolo = new JRadioButton("Bolo");
-		rdbtnBolo.setBounds(6, 88, 141, 23);
-		contentPane.add(rdbtnBolo);
-		
-		JRadioButton rdbtnRefri = new JRadioButton("Refri");
-		rdbtnRefri.setBounds(6, 104, 141, 23);
-		contentPane.add(rdbtnRefri);
-		
-		JRadioButton rdbtnSanduiche = new JRadioButton("Sanduiche");
-		rdbtnSanduiche.setBounds(6, 125, 141, 23);
-		contentPane.add(rdbtnSanduiche);
-		
-		JRadioButton rdbtnChocolate = new JRadioButton("Chocolate");
-		rdbtnChocolate.setBounds(6, 148, 141, 23);
-		contentPane.add(rdbtnChocolate);
 		
 		JButton btnRecolherfaturamento = new JButton("RecolherFaturamento");
 		btnRecolherfaturamento.setBounds(135, 243, 164, 29);
